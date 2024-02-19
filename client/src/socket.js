@@ -1,4 +1,5 @@
 import {io} from 'socket.io-client';
+import API_URL from './util/backend';
 
 export const initSocket = async () => {
     const options = {
@@ -7,7 +8,7 @@ export const initSocket = async () => {
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io("http://localhost:9000", options);
+    return io(API_URL, options);
     // backend url to connect
     //REACT_APP_ is must if we don't install dotenv
 };
