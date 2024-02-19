@@ -14,9 +14,6 @@ import {
 import toast from "react-hot-toast";
 import ReactPlayer from "react-player";
 import peer from "../../service/peer.js";
-import Peer from "simple-peer";
-import io from "socket.io-client";
-import { Controlled as CodeMirror } from "react-codemirror2";
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/material.css";
 import "codemirror/mode/javascript/javascript";
