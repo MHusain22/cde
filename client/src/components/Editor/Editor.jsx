@@ -19,7 +19,7 @@ import "codemirror/theme/material.css";
 import "codemirror/mode/javascript/javascript";
 import "codemirror/mode/python/python";
 import axios from "axios";
-import API_URL from "../../../util/backend.js";
+import API_URL from "../../util/backend.js";
 
 const Editor = () => {
   const [myStream, setMyStream] = useState();
