@@ -1,0 +1,62 @@
+.main {
+  background-color: #1c1e29;
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+.left h3 {
+  margin: 20px 0px;
+}
+.left {
+  padding: 10px;
+  background-color: #1c1e29;
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+}
+.logo img {
+  width: 50%;
+}
+.clientlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.leavebtn {
+  width: 19em;
+  position: absolute;
+  bottom: 20px;
+  background-color: #4aee88;
+}
+.copybtn {
+  width: 19em;
+  position: absolute;
+  bottom: 60px;
+}
+.right {
+  display: flex;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.frame textarea {
+  margin: 20px 0;
+  background-color: #272934;
+  color: white;
+}
+.frame h2 {
+  margin-top: 20px;
+}
+.frame button {
+  background-color: #4aee88;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

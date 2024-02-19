@@ -1,0 +1,2 @@
+a="Enter"
+print(a)
