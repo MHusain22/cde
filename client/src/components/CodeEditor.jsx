@@ -21,7 +21,7 @@ const CodeEditor = ({ socketRef, roomId, onCodeChange,language }) => {
         document.getElementById("realtimeEditor"),
         {
           // mode: { name: "javascript", json: true },
-          mode: { name: "text/x-java", json: true },
+          mode: { name: "python", json: true },
           // mode: `${language}`,
           // mode: "text/x-java",
           theme: "dracula",
