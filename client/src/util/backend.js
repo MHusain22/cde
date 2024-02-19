@@ -1,2 +1,2 @@
-const API_URL = "http://localhost:9000"
+const API_URL = "https://cdeapi.onrender.com"
 export default API_URL

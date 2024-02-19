@@ -26,7 +26,7 @@ const Editor = () => {
   const [code, setCode] = useState("");
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
-  const [lang, setLang] = useState("text/x-java");
+  const [lang, setLang] = useState("python");
   const { roomId } = useParams();
 
   //initialization of socket
