@@ -160,7 +160,7 @@ const Editor = () => {
 
   const executeCode = async () => {
     try {
-      const response = await axios.post(API_URL + "/execute", {
+      const response = await axios.post(API_URL+"/execute", {
         code: codeRef.current,
         input,
       });
@@ -180,24 +180,14 @@ const Editor = () => {
         <h3>Connected</h3>
         <div className="clientlist">
           {clients.map((client) => (
-            <>
-              <Client key={client.socetID} username={client.username} />
-              {myStream && (
-                <ReactPlayer
-                  playing
-                  url={myStream}
-                  height="100px"
-                  width="200px"
-                />
-              )}
-            </>
+            <Client key={client.socetID} username={client.username} />
           ))}
         </div>
 
         <button onClick={handleCall}>Video</button>
-        {/* {myStream && (
+        {myStream && (
           <ReactPlayer playing url={myStream} height="100px" width="200px" />
-        )} */}
+        )}
         <button className="btn copybtn" onClick={copyRoomId}>
           Copy ROOM ID
         </button>
