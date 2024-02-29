@@ -1,54 +1,59 @@
-.outer{
-    background-color: #1c1e29;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box{
-    height: 380px;
-    width: 500px;
-    border-radius: 10px;
-    background-color:#282a36;
-    padding: 10px;
+.outer {
+  /* background-color: #2b2a2a; */
+  background-color: #1c1e29;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo img{
-    width: 47%;
+.box {
+  height: 380px;
+  width: 500px;
+  border-radius: 10px;
+  background-color:#282a36;
+  /* background-color: #000000; */
+  padding: 10px;
 }
-.content{
-    display: flex;
-    flex-direction: column;
+.logo h1{
+  color: #4aee88;
 }
-.content h3,p{
-    margin: 15px;
-    color: white;
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
-.content p{
-    text-align: center;
+.content h3,
+p {
+  margin: 15px;
+  color: white;
 }
-.content span{
-    color: #4aee88;
-    cursor: pointer;
-    text-decoration: underline;
+.content p {
+  text-align: center;
 }
-.content input{
-    border-radius: 5px;
-    margin: 8px 15px 8px 15px;
-    height: 3em;
-    outline: none;
-    
+.content span {
+  color: #4aee88;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.content input {
+  border-radius: 5px;
+  margin: 8px 15px 8px 15px;
+  height: 3em;
+  outline: none;
 }
 ::placeholder {
-    padding-left: 6px;
-  }
-.joinbtn{
-    margin: 8px 15px 8px 15px;
-    height: 3em;
-    background-color: #4aee88;
-    border-radius: 5px;
+  padding-left: 6px;
 }
-.joinbtn:hover, .leavebtn:hover{
-    background-color: #2b824c;
-    cursor: pointer;
+.joinbtn {
+  margin: 8px 15px 8px 15px;
+  height: 3em;
+  background-color: #4aee88;
+  /* background-color: #224efb; */
+  border-radius: 5px;
+}
+.joinbtn:hover,
+.leavebtn:hover {
+  background-color: #4aee88;
+  cursor: pointer;
 }

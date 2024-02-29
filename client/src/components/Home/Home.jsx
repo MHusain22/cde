@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import logo from "../Images/code-sync.png";
+import logo from "../Images/new.png";
 import { v4 as uuid } from "uuid"; //to generate unique id
 import toast from "react-hot-toast"; //to alert success
 import { useNavigate } from "react-router-dom";
@@ -42,7 +42,10 @@ const Home = () => {
     <div className="outer">
       <div className="box">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <h1>
+            {`<Code/>`}
+            <span style={{ color: "white" }}>Room</span>
+          </h1>
         </div>
         <div className="content">
           <h3>Paste Invitation ROOM ID</h3>
@@ -65,7 +68,7 @@ const Home = () => {
           </button>
           <p>
             If you don't have an invite then create
-            <span onClick={createNewRoom}>new room</span>
+            <span onClick={createNewRoom}> new room</span>
           </p>
         </div>
       </div>

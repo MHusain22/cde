@@ -173,8 +173,11 @@ const Editor = () => {
   return (
     <div className="main">
       <div className="left">
-        <div className="logo">
-          <img src={logo} alt="logo" />
+      <div className="logo">
+          <h1>
+            {`<Code/>`}
+            <span style={{ color: "white" }}>Room</span>
+          </h1>
         </div>
         <hr />
         <h3>Connected</h3>
