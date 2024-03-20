@@ -187,10 +187,10 @@ const Editor = () => {
           ))}
         </div>
 
-        <button onClick={handleCall}>Video</button>
-        {myStream && (
+        {/* <button onClick={handleCall}>Video</button> */}
+        {/* {myStream && (
           <ReactPlayer playing url={myStream} height="100px" width="200px" />
-        )}
+        )} */}
         <button className="btn copybtn" onClick={copyRoomId}>
           Copy ROOM ID
         </button>

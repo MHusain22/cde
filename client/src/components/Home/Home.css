@@ -1,6 +1,6 @@
 .outer {
   /* background-color: #2b2a2a; */
-  background-color: #1c1e29;
+  background-color: var(--bg-color);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,12 +11,13 @@
   height: 380px;
   width: 500px;
   border-radius: 10px;
-  background-color:#282a36;
-  /* background-color: #000000; */
+  /* background-color: #282a36; */
+  /* background-color: var(--bg-color); */
+  background-color: #000000;
   padding: 10px;
 }
-.logo h1{
-  color: #4aee88;
+.logo h1 {
+  color: var(--color);
 }
 
 .content {
@@ -32,7 +33,7 @@ p {
   text-align: center;
 }
 .content span {
-  color: #4aee88;
+  color: var(--color);
   cursor: pointer;
   text-decoration: underline;
 }
@@ -48,12 +49,12 @@ p {
 .joinbtn {
   margin: 8px 15px 8px 15px;
   height: 3em;
-  background-color: #4aee88;
+  background-color: var(--color);
   /* background-color: #224efb; */
   border-radius: 5px;
 }
 .joinbtn:hover,
 .leavebtn:hover {
-  background-color: #4aee88;
+  background-color: var(--color);
   cursor: pointer;
 }

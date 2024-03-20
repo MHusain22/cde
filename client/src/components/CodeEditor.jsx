@@ -10,7 +10,7 @@ import "./CodeEditor.css";
 import ACTIONS from "../Actions";
 import axios from "axios";
 
-const CodeEditor = ({ socketRef, roomId, onCodeChange,language }) => {
+const CodeEditor = ({ socketRef, roomId, onCodeChange, language }) => {
   const editorRef = useRef(null);
   console.log(language);
 
@@ -47,7 +47,7 @@ const CodeEditor = ({ socketRef, roomId, onCodeChange,language }) => {
       });
 
       //to show the value when the user enters the room
-      // editorRef.current.setValue(`console.log("hello")`);
+      editorRef.current.setValue(`print("Python")`);
     }
     init();
   }, []);
@@ -69,15 +69,10 @@ const CodeEditor = ({ socketRef, roomId, onCodeChange,language }) => {
 
   // var width = window.innerWidth;
   // editorRef.current.setSize(0.7*width);
-  
 
   return (
     <div className="">
-      <textarea
-       
-        id="realtimeEditor"
-      />
-      
+      <textarea id="realtimeEditor" />
     </div>
   );
 };
