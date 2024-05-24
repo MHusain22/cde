@@ -223,11 +223,12 @@ const Editor = () => {
         </div>
       </div>
       <div className="frame">
-        <select name="language" onChange={handleLanguage} id="">
-          <option value="python">Python</option>
-          <option value="javascript">JavaScript</option>
+        <h1>Execute:</h1>
+        {/* <select name="language" onChange={handleLanguage} id=""> */}
+          {/* <option value="python">Python</option> */}
+          {/* <option value="javascript">JavaScript</option> */}
           {/* <option value="text/x-csrc">C</option> */}
-        </select>
+        {/* </select> */}
         <h2>Input:</h2>
         <textarea
           id="input"
