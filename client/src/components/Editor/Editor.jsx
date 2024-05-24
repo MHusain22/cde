@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "./Editor.css";
-import logo from "../Images/code-sync.png";
 import Client from "../Client/Client";
 import CodeEditor from "../CodeEditor";
 import { initSocket } from "../../socket.js";
@@ -226,8 +225,8 @@ const Editor = () => {
       <div className="frame">
         <select name="language" onChange={handleLanguage} id="">
           <option value="python">Python</option>
-          <option value="text/x-java">Java</option>
-          <option value="text/x-csrc">C</option>
+          <option value="javascript">JavaScript</option>
+          {/* <option value="text/x-csrc">C</option> */}
         </select>
         <h2>Input:</h2>
         <textarea

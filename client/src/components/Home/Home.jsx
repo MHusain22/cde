@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Home.css";
-import logo from "../Images/new.png";
 import { v4 as uuid } from "uuid"; //to generate unique id
 import toast from "react-hot-toast"; //to alert success
 import { useNavigate } from "react-router-dom";
